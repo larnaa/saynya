@@ -47,6 +47,3 @@ release-major:
 	bumpversion major
 	git push --tags
 	git push
-
-dump-schema:
-	sqlite3 bluecoins.fydb .schema > bluecoins.sql

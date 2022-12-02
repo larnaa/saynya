@@ -157,3 +157,10 @@ secrets.env
 *.orig
 *.flac
 *.wav
+
+# dataset
+background/
+foreground/
+extra_sounds/
+esc50.csv
+/src/help_functions.py
